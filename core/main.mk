@@ -507,6 +507,7 @@ subdirs := \
 	frameworks/av/services/medialog \
 	frameworks/av/services/camera/libcameraservice \
 	frameworks/base/cmds/bootanimation \
+	frameworks/base/cmds/servicemanager \
 	frameworks/base/cmds/screencap \
 	frameworks/base/libs/androidfw \
 	frameworks/base/libs/diskusage \

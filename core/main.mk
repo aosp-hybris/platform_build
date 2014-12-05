@@ -537,6 +537,9 @@ subdirs := \
 # device and vendor
 subdirs += device vendor
 
+# for aosp-hybris project
+subdirs += hybris
+
 FULL_BUILD := true
 
 endif	# !BUILD_TINY_ANDROID

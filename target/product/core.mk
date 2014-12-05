@@ -133,6 +133,19 @@ PRODUCT_PACKAGES += \
     zoneinfo.idx \
     zoneinfo.version
 
+# for aosp-hybris
+PRODUCT_PACKAGES += \
+    libcamera_compat_layer \
+    libis_compat_layer \
+    libmedia_compat_layer \
+    libsf_compat_layer \
+    libui_compat_layer \
+    direct_camera_test \
+    direct_input_test \
+    direct_media_test \
+    direct_sf_test
+
+
 PRODUCT_COPY_FILES += \
     system/core/rootdir/init.usb.rc:root/init.usb.rc \
     system/core/rootdir/init.trace.rc:root/init.trace.rc \
@@ -166,4 +179,3 @@ ifeq ($(HAVE_SELINUX),true)
 endif
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
-

@@ -143,7 +143,8 @@ PRODUCT_PACKAGES += \
     direct_camera_test \
     direct_input_test \
     direct_media_test \
-    direct_sf_test
+    direct_sf_test \
+    bootanimation.zip
 
 
 PRODUCT_COPY_FILES += \
